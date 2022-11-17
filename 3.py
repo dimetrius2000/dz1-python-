@@ -7,7 +7,9 @@ def by_value(item):
 max_profit = {}                                                             # O(1)
 i = 0                                                                       # O(1)
 for k, v in sorted(spisok_company.items(), key=by_value, reverse=True):     # O(n + n log n)
-    if i < 3:                                                               # O(len(i)
+    if i < 3:                                                               # O(len(i))
         max_profit.setdefault(k, v)                                         # O(1)
     i = i + 1                                                               # O(1)
 print(max_profit)  
+
+# общее O(N)

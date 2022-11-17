@@ -25,6 +25,7 @@ def pal_checker(string):
     string = string.replace(" ", "")
     dc_obj = DequeClass()
 
+    
     for el in string:
         dc_obj.add_to_rear(el)
 

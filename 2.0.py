@@ -15,4 +15,4 @@ def find_Smallest(arr):
 
 find_Smallest(arr)
 
-#O(n)
+# O(n)

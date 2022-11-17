@@ -10,7 +10,7 @@ users_activated = {'alex':'activated',
         'alina':'activated'
         }
 
-def activated_useres():#!!!#O(N)
+def activated_useres():
     print('Есть ли не активированные пользователи ?')#O(1)
 
     if 'no activated' in users_activated.values():#O(N)
@@ -22,7 +22,7 @@ def activated_useres():#!!!#O(N)
 activated_useres()
 #сложность - O(N)
 
-def get_key(user_activated, value):#!!! #O(N)
+def get_key(user_activated, value):
     for k, v in users_activated.items():#O(N)
         if v == value:#O(1)
             return k#O(1)
@@ -31,7 +31,7 @@ print('пользователь '+(get_key(users_activated, 'no activated'))+' �
 
 
 
-#общая сложность = O(N)+O(N)=O(N)
+# общая сложность = O(N)+O(N)=O(N)
 
 
 

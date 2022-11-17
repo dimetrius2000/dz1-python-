@@ -12,4 +12,4 @@ def find_Smallest2(arr):
 print(find_Smallest2(arr))
 
 
-#O(n^2)
+# O(n^2)
