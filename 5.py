@@ -4,7 +4,7 @@ class StackClass:
 
     def push_in(self, el):
         for i in range(0, len(self.elems) - 1, 1):
-            if len(self.elems[i]) < 5:
+            if len(self.elems[i]) < 4:
                 self.elems[i].append(el)
                 break
 
