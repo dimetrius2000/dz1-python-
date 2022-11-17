@@ -30,7 +30,7 @@ class QueueClass:
 if __name__ == '__main__':
     qc_obj = QueueClass()
 
-    qc_obj.to_queue('my_obj')
+    qc_obj.to_queue('myobj')
     qc_obj.to_queue(4)
     qc_obj.to_queue(True)
 
