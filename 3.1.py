@@ -14,3 +14,5 @@ while len(max_profit_2) < 3:                                                # O(
     max_profit_2.setdefault(key_max_value, max_value)                       # O(1)
 
 print(max_profit_2)
+
+# O(N^2)
